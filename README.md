@@ -1,2 +1,3 @@
 # helium-detect-spoofing
-Obtener luistado de equipos haciendo spoofing
+
+Obtener listado de equipos haciendo spoofing.
