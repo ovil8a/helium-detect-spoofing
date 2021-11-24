@@ -8,7 +8,7 @@ url="https://api.helium.io/v1/cities"
 def main():
     ciudades=requests.get(url,headers =headers)
     json_data = json.loads(ciudades.text)
-    df = pd.read_json(json_data)
+    df = pd.DataFrame(json_data)
     print(df)
 
 def obtenapi():
